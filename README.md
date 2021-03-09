@@ -1,1 +1,5 @@
-# 1030520722_BS436_WebProgramlama
+Öğrenci Numarası: 1030520722
+
+Öğrenci Adı: Ayça Uyanık
+
+Ders Adı: BS436 Web Programlama
