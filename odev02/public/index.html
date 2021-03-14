@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kediyi Bul</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Kedi Bulmaca</h2>
+
+<p> Bu oyunda 3 kapalı kart içindeki kediyi bulamn gerekmektedir. İlk tercihte kedi kartını bulamaz isen 2. seçim hakkı tanınacaktır.</p>
+
+<section class="cards_section">
+    <div id="a" class="card" data-name="kedi">
+        <img src="Kedi.jpg" alt="kedi" class="frontFace">
+        <img src="card.jpg" alt="Kedi Kartı" class="backFace">
+    </div>
+
+    <div class="card" data-name="kopek">
+        <img src="dog.jpg" alt="Kedi değil" class="frontFace">
+        <img src="card.jpg" alt="Kedi Kartı" class="backFace">
+    </div>
+
+    <div class="card" data-name="kopek">
+        <img src="dog.jpg" alt="Kedi değil" class="frontFace">
+        <img src="card.jpg" alt="Kedi Kartı" class="backFace">
+    </div>
+
+</section>
+
+<div class="mesaj">
+    <p id="alanId"> Kedi kartını bulmak için kartın üzerine tıklamalısın.</p>
+    <p id="kazandiId" style="display: none"> Tebrikler kazandın!!! Bir daha oynamak için <a href="http://localhost:63342/deneme/index.html?_ijt=4cbut0ih4toikn1abpjok11b6">tıkla</a>  </p>
+    <p id="yenildiId" style="display: none"> kaybettin :/ bir daha denemek için <a href="http://localhost:63342/deneme/index.html?_ijt=4cbut0ih4toikn1abpjok11b6">tıkla</a>  </p>
+</div>
+
+<script src="bundle.js"></script>
+
+</body>
+</html>

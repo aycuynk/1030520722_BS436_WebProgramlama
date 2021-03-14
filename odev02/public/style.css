@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    color: rgb(71, 53, 25);
+    font-size: 1.2em;
+}
+
+
+.mesaj{
+    background-color: green;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.cards_section{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.card{
+    width: calc(31%);
+    height: calc(43.333% );
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    transform-style: preserve-3d;
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+
+.backFace,
+.frontFace {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 2px;
+    background: #eee;
+}
+
+.frontFace {
+    transform: rotateY(180deg);
+}
+
